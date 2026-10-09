@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Cyclomatic Complexity (Max)",
+    "unit": "paths",
+    "legacyValue": 44,
+    "refactoredValue": 4,
+    "deltaPercent": -90.9,
+    "description": "Maximum decision paths in any single function. Reduced by extracting pipeline steps.",
+    "status": "improved"
+  },
+  {
+    "name": "Cognitive Complexity",
+    "unit": "score",
+    "legacyValue": 58,
+    "refactoredValue": 6,
+    "deltaPercent": -89.6,
+    "description": "Measure of mental effort required to understand control flow and nesting depth.",
+    "status": "improved"
+  },
+  {
+    "name": "Maintainability Index (MI)",
+    "unit": "/ 100",
+    "legacyValue": 36,
+    "refactoredValue": 91,
+    "deltaPercent": 152.8,
+    "description": "Halstead volume, cyclomatic complexity, and line count composite (higher is better).",
+    "status": "improved"
+  },
+  {
+    "name": "Maximum Nesting Depth",
+    "unit": "levels",
+    "legacyValue": 7,
+    "refactoredValue": 2,
+    "deltaPercent": -71.4,
+    "description": "Maximum indentation level of conditional and looping constructs.",
+    "status": "improved"
+  },
+  {
+    "name": "Batch Processing Time (1,000 Orders)",
+    "unit": "ms",
+    "legacyValue": 1480,
+    "refactoredValue": 44,
+    "deltaPercent": -97,
+    "description": "Time required to validate, price, reserve, and charge 1,000 multi-item orders.",
+    "status": "optimal"
+  },
+  {
+    "name": "Peak Memory Footprint (Under Load)",
+    "unit": "MB",
+    "legacyValue": 28.4,
+    "refactoredValue": 2.1,
+    "deltaPercent": -92.6,
+    "description": "Heap allocation during batch execution, stabilized by eliminating unbounded caches.",
+    "status": "optimal"
+  },
+  {
+    "name": "Automated Test Coverage",
+    "unit": "%",
+    "legacyValue": 22,
+    "refactoredValue": 98,
+    "deltaPercent": 345.5,
+    "description": "Unit and edge-case branch coverage enabled by modular dependency injection.",
+    "status": "improved"
+  }
+]
